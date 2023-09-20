@@ -1,0 +1,44 @@
+/* Seletores: */
+
+body {
+	font-size: 1em;
+	font-family: serif;
+	background: #e6e6e6;
+	width: 920px;
+	margin: 0 auto;
+}
+
+h1, h3 {
+	color: #19203C;
+}
+
+a:link, a:visited {
+	color: #057558;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #057558;
+	color: #e6e6e6;
+}
+
+/* IDs: */
+
+#cabecalho {
+	text-align: center;
+}
+
+#topicos {
+	/* Caso queira alterar algo, deixarei o ID que
+	engloba todos os tópicos, aqui. */
+}
+
+/* Classes: */
+
+.topico {
+	width: 450px;
+}
+
+.clear {
+	clear: both;
+}
